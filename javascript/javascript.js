@@ -26,7 +26,8 @@ $('.counter').countUp({
     'delay': 10
 });
 
-closeVideo.onclick = function () {
-    // video_current.pause()
-    console.log(234235)
-}
+// thu vien slick
+$('.testimonials_content').slick({
+    dots: true,
+    arrows: false
+});

@@ -13,6 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
         rel="stylesheet">
+    <!-- thu viecn slick -->
+    <link rel="stylesheet" href="./slick_carousel/slick.css">
+    <link rel="stylesheet" href="./slick_carousel/slick-theme.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,7 +28,7 @@
 
 <body>
     <div id="root" class="">
-        <header id="header-diner">
+        <header id="header-diner" class="container">
             <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
                 <!-- Brand -->
                 <a class="navbar-brand" href="#">Diner</a>
@@ -72,14 +75,17 @@
 
         </header>
         <section id="banner">
-            <div class="banner_content">
-                <h3>The Only Thing We Love More Than Food Is You!</h3>
-                <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea ipsum sed consequuntur
-                    illum
-                    facere.
-                </p>
-                <button class="btn btn-outline-light"><span>Read more </span><i
-                        class="fas fa-chevron-right"></i></button>
+            <div class="banner_content container">
+                <div class="banner_content_primary">
+                    <h3>The Only Thing We Love More Than Food Is You!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.Ea ipsum sed
+                        consequuntur
+                        illum
+                        facere.
+                    </p>
+                    <button class="btn btn-outline-light"><span>Read more </span><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
             </div>
         </section>
         <section id="about_us">
@@ -349,7 +355,96 @@
         </section>
 
         <section id="blog_post">
+            <div class="blog_title">
+                <p class="chukieu">Latest Posts</p>
+                <h3>Blog Posts</h3>
+            </div>
+            <div class="blog_content container">
+                <div class="blog_items row">
+                    <div class="blog_item col-lg-4 col-md-6 col-12 ">
+                        <div class="background_heading">
+                            <button class="btn"> <a href="#">Reciepe</a></button>
+                            <div class="icon_clock"> <i class="far fa-clock"></i></div>
+                            <span>10 Min Cook</span>
+                        </div>
+                    </div>
+                    <div class="blog_item col-lg-4 col-md-6 col-12 ">
+                        <div class="background_heading">
+                            <button class="btn"> <a href="#">Reciepe</a></button>
+                            <div class="icon_clock"> <i class="far fa-clock"></i></div>
+                            <span>10 Min Cook</span>
+                        </div>
+                    </div>
+                    <div class="blog_item col-lg-4 col-md-6 col-12 ">
+                        <div class="background_heading">
+                            <button class="btn"> <a href="#">Reciepe</a></button>
+                            <div class="icon_clock"> <i class="far fa-clock"></i></div>
+                            <span>10 Min Cook</span>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="testimonials_title">
+                <p class="chukieu">Testimonials</p>
+                <h3>What People Say</h3>
+            </div>
+            <div class="testimonials_content">
+                <div class="testimonials_item">
+                    <div class="avatar">
+                        <img src="./img/team1.jpg" alt="">
+                    </div>
+                    <p class="icon">"</p>
+                    <h3>OMG! Icannot believe. It's Awesome"</h3>
+                    <p class="content">My new site is so much faster and easier to work with than my old site. They are
+                        here to
+                        help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                        Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <p class="name_customer">Johnson william</p>
+                    <span>Customer</span>
+                </div>
+                <div class="testimonials_item">
+                    <div class="avatar">
+                        <img src="./img/team2.jpg" alt="">
+                    </div>
+                    <p class="icon">"</p>
+                    <h3>OMG! Icannot believe. It's Awesome"</h3>
+                    <p class="content">My new site is so much faster and easier to work with than my old site. They are
+                        here to
+                        help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                        Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <p class="name_customer">Johnson william</p>
+                    <span>Customer</span>
+                </div>
+                <div class="testimonials_item">
+                    <div class="avatar">
+                        <img src="./img/team3.jpg" alt="">
+                    </div>
+                    <p class="icon">"</p>
+                    <h3>OMG! Icannot believe. It's Awesome"</h3>
+                    <p class="content">My new site is so much faster and easier to work with than my old site. They are
+                        here to
+                        help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                        Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <p class="name_customer">Johnson william</p>
+                    <span>Customer</span>
+                </div>
+                <div class="testimonials_item">
+                    <div class="avatar">
+                        <img src="./img/team1.jpg" alt="">
+                    </div>
+                    <p class="icon">"</p>
+                    <h3>OMG! Icannot believe. It's Awesome"</h3>
+                    <p class="content">My new site is so much faster and easier to work with than my old site. They are
+                        here to
+                        help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                        Pellen tesque libero ut justo, ultrices in ligula.</p>
+                    <p class="name_customer">Johnson william</p>
+                    <span>Customer</span>
+                </div>
+            </div>
         </section>
     </div>
 
@@ -375,6 +470,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <!-- count up -->
     <script src="./count_up/jquery.countup.js"></script>
+    <!-- thu vien slick -->
+    <script src="./slick_carousel/slick.js"></script>
     <script src="./javascript/javascript.js"></script>
 </body>
 
